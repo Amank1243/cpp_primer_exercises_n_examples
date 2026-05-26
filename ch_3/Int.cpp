@@ -25,5 +25,19 @@ int main() {
     cout << "Minimum int value = " << INT_MIN << endl;
     cout << "Bits per byte = " << CHAR_BIT << endl;
 
+    // ---------------------- OUTPUT --------------------------------- //
+    
+    // int is 4 bytes.
+    // short is 2 bytes.
+    // long is 4 bytes.
+    // long long is 8 bytes.
+    // Maximum values:
+    // int: 2147483647
+    // short: 32767
+    // long: 2147483647
+    // long long: 9223372036854775807
+    // Minimum int value = -2147483648
+    // Bits per byte = 8
+
 return 0;
 }
