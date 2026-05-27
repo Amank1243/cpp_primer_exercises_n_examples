@@ -21,5 +21,12 @@ int main() {
 
     cout << "DONE";
 
+    // ----- Output --------------- //
+    // The ASCII code for M is 77
+    // Add one to the character code:
+    // The ASCII code for N is 78
+    // Displaying char ch using cout.put(ch): N!
+    // Done
+
     return 0;
 }
