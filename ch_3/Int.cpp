@@ -26,7 +26,7 @@ int main() {
     cout << "Bits per byte = " << CHAR_BIT << endl;
 
     // ---------------------- OUTPUT --------------------------------- //
-    
+     
     // int is 4 bytes.
     // short is 2 bytes.
     // long is 4 bytes.
