@@ -14,7 +14,7 @@ int main()
     cout << name2  << ": What's your name?\n";
     cin >> name1;
     cout << name2 << ": Well, " << name1 << ", your name has ";
-    cout << strlen(name1) << " letters and is stored ";
+    cout << strlen(name1) << " letters and is stored ";       // Look at that strlen() function
     cout <<  "in an array of " << sizeof(name1) << " bytes.\n";
     cout <<name2 << ": Your initial is " << name1[0] << ".\n";
     name2[3] = '\0'; // set to null character
