@@ -20,6 +20,8 @@ int main()
 
     inflatable choice;
 
+    cout << "The size of the choice struct before initalizing it to any value is " << sizeof choice << " Bytes!" << endl;
+
     cout << "bouquet: " << bouquet.name << " for $";
     cout << bouquet.price << endl;
 
@@ -28,9 +30,13 @@ int main()
     cout << "choice: " << choice.name << " for $";
     cout << choice.price << endl;
 
+    cout << "The size of the choice struct is " << sizeof choice << " Bytes!";
+
     // --------- OUTPUT ---------- //
+    // The size of the choice struct before initalizing it to any value is 32 Bytes!
     // bouquet: sunflowers for $12.49
     // choice: sunflowers for $12.49
+    // The size of the choice struct is 32 Bytes!
 
     return 0;
 }
